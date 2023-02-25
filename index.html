@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eldie Ignacio Jr.</title>
+</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<body>
+    <!--Desktop Interface-->
+    <section class="introduction">
+        <!--Mobile and Tab Interface-->
+            <div class="container-fluid intro-content">
+                <h1>eldie g. ignacio jr.</h1>
+                <p>Freshmen Student at University of Caloocan City.</p>
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="button-toggle">
+                    <button type="button" id="toggleAbout">About</button>
+                    <button type="button"id="toggleSkills">Skills</button>
+                    <button type="button"id="toggleProjects">Projects</button>
+                    <button type="button"id="toggleContacts">Contacts</button>
+                </div>
+            </div>
+    </section>
+
+    <section class="about">
+        <div class="container-fluid about-header">
+            <h1>About</h1>
+            <i class="fa-solid fa-angles-up" id="closeAbout"></i>
+        </div>
+       <div class="container-fluid about-content">
+        <div class="about-details">
+            <div class="container-fluid content-image">
+                <img src="/images/AKO.jpg" alt="">
+            </div>
+            <div class="container content-introduction">
+                <hr style="width: 70px; text-align: start;">
+                <p>Hi!, I'm Eldie. currently a freshman student from University of Caloocan City with the course of Bachelor of Science in Information Technology. My goal is to become a proficient programmer in the future, simply by starting learning Web Development.</p>
+                <hr style="width: 70px; float: right;">
+            </div>
+            <div class="container-fluid personal">
+                <h4><span class="info">Age:</span> 19</h4>
+                <h4><span class="info">City:</span> Caloocan City</h4>
+                <h4><span class="info">College Level:</span> First Year</h4>
+            </div>
+        </div>
+       </div>
+    </section>
+
+    <section class="skills">
+        <div class="container-fluid skills-header">
+            <h1>Skills</h1>
+            <i class="fa-solid fa-angles-up" id="closeSkills"></i>
+        </div>
+        <div class="container-fluid content-skills">
+            <div class="container-fluid content-skills-row">
+                <div class="row">
+                    <div class="col mt-4">
+                        <i class="fa-brands fa-html5"></i>
+                        <h1>HTML</h1>
+                    </div>
+                    <div class="col mt-4">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h1>CSS</h1>
+                    </div>
+                    <div class="col mt-4">
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <h1>BOOTSTRAP</h1>
+                    </div>
+                    <div class="col mt-4">
+                        <i class="fa-brands fa-js"></i>
+                        <h1>JAVASCRIPT</h1>
+                    </div>
+                    <div class="col mt-4">
+                        <i class="fa-solid fa-c"></i>
+                        <h1>C LANGUAGE</h1>
+                    </div>
+            </div>
+            </div>
+      </div>
+    </section>
+
+    <section class="projects">
+        <div class="container-fluid project-header">
+            <h1>Projects</h1>
+            <i class="fa-solid fa-angles-up" id="closeProjects"></i>
+        </div>
+        <div class="container-fluid content-project">
+            <div class="container-fluid show-project">
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div class="contact-section">
+            <div class="container-fluid contact-header">
+                <h1>Contacts</h1>
+                <i class="fa-solid fa-angles-up" id="closeContacts"></i>
+            </div>
+            <div class="container-fluid contact-form">
+                <div class="container-fluid form-content">
+                    <form>
+                        <label for="name" class="mt-5">First Name: </label>
+                        <div class="mb-3 form-input">
+                            <input class="form-control" type="text">
+                        </div>
+                        <label for="name">Last Name: </label>
+                        <div class="mb-3 form-input">
+                            <input  class="form-control" type="text">
+                        </div>
+                        <div class="form-input">
+                            <label for="message">Message Me: </label>
+                            <textarea class="form-control" cols="20" rows="5"></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button type="submit" class="mt-2 btn btn-dark">Send</button>
+                        </div>
+                        <div class="container-fluid sub-contacts">
+                            <hr>
+                            <p><i class="fa-solid fa-envelope"></i> eldieignacio.biz@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i> (+63) 949-942-8732</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </section>
+      
+    </section>
+
+    <section class="contact-animation">
+        <div class="containere-fluid animate-contact">
+        </div>
+    </section>
+
+    <div class="animation-effect">
+        <section class="curtainOne">
+            <div class="container-fluid animationOne">
+            </div>
+        </section>
+    
+        <section class="curtainTwo">
+            <div class="container-fluid animatioTwo">
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/702f00ff8d.js" crossorigin="anonymous"></script>
+    <script src="/app.js"></script>
+</body>
+</html>

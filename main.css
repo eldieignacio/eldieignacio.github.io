@@ -1,0 +1,579 @@
+
+@media (min-width: 320px){
+   .introduction{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+   }
+   .intro-content{
+      text-align: center;
+      transition: linear 1.5s;
+   }
+   .intro-content h1{
+      font-size: 30px;
+      text-transform: uppercase;
+      font-weight: bold;
+   }
+   .intro-content p{
+      font-size: 13px;
+   }
+   .intro-content .social-media a{
+      font-size: 20px;
+      text-decoration: none;
+      color: black;
+   }
+   .button-toggle{
+    margin-top: 20px;
+   }
+   .button-toggle button{
+      color: white;
+      background-color: #121212;
+      border-radius: 9px;
+      padding: 2px;
+      width: 70px;
+      border: 1px solid black;
+   }
+
+   /* About Tab */
+   .about{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background-color: white;
+      left: 0;
+      top: -100%;
+      bottom: 0;
+      right: 0;
+      transition: 0.5s;
+      transition-delay: 0.5s;
+      z-index: 2;
+   }
+   .about.active{
+      top: 0;
+   }
+
+   .about-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: black;
+      padding: 20px;
+   }
+   .about-header h1{
+      font-size: 30px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: lighter;
+      width: 100px;
+      border-radius: 5px;
+      color: black;
+      text-align: center;
+   }
+   .about-header i{
+      font-size: 20px;
+   }
+   .content-image{
+      display: flex;
+      justify-content: center;
+   }
+   .content-image img{
+      width: 250px;
+      height: auto;
+      border-radius: 60%;
+   }
+   .content-introduction{
+      padding: 20px;
+   }
+   .content-introduction p{
+      font-size: 13px;
+      text-align: justify;
+      font-family: 'Poppins', sans-serif;
+   }
+   .subcontent-header h1{
+      margin-top: 10px;
+      font-family: 'Poppins', sans-serif;
+      padding: 10px;
+   }
+   .subcontent-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 25px;
+      gap: 20px;
+   }
+   .personal{
+      margin-top: 10px;
+      padding: 10px;
+   }
+   .personal h4{
+      font-size: 15px;
+      font-family: 'Poppins', sans-serif;
+   }
+   .info{
+      font-weight: bold;
+   }
+   /* Skills Tab */
+   .skills{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background-color: white;
+      top: -100%;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      transition: 0.5s;
+      transition-delay: 0.6s;
+      z-index: 2;
+   }
+
+   .skills.active{
+      top: 0;
+   }
+   .skills-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: black;
+      padding: 20px;
+   }
+   .skills-header h1{
+      font-size: 30px;
+      font-family: 'Poppins', sans-serif;
+      width: 100px;
+      border-radius: 5px;
+      color: black;
+      text-align: center;
+   }
+   .content-skills{
+      display: flex;
+      justify-self: center;
+   }
+   .skills-header i{
+      font-size: 20px;
+   }
+   .skills .content-skills .row{
+      overflow: hidden;
+      display: block;
+      text-align: center;
+   }
+   .skills .content-skills .row i{
+      font-size: 80px;
+   }
+   .skills .content-skills .row h1{
+      font-size: 15px;
+   }
+   /* Project Tab*/
+   .projects{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      top: -100%;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      transition: 0.5s;
+      transition-delay: 0.6s;
+      z-index: 2;
+      background-image: url(/images/27277.jpg);
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+
+   .projects.active{
+      top: 0;
+   }
+   .project-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: black;
+      padding: 20px;
+   }
+   .project-header h1{
+      font-size: 30px;
+      font-family: 'Poppins', sans-serif;
+      width: 120px;
+      border-radius: 5px;
+      color: white;
+      text-align: center;
+   }
+   .project-header i{
+      font-size: 20px;
+      color: white;
+   }
+   .show-project h1{
+      font-size: 15px;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+   }
+   /* Contacts Tab*/
+   .contacts{
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      background-color: white;
+      top: -100%;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      transition: 0.5s;
+      transition-delay: 0.6s;
+      z-index: 2;
+   }
+   .contacts.active{
+      top: 0;
+   }
+
+   .contact-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: black;
+      padding: 20px;
+   }
+   .contact-header h1{
+      font-size: 30px;
+      font-family: 'Poppins', sans-serif;
+   }
+   .contact-header i{
+      font-size: 20px;
+   }
+
+
+   .contact-animation{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background-color: #121212;
+      top: 0;
+      left: -100%;
+      bottom: 0;
+      right: 0;
+      transition: 0.5s;
+   }
+   .contact-animation.active{
+      left: 0;
+   }
+
+   .animation-effect{
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+   }
+   .curtainOne{
+      background-color: #121212;
+      width: 50%;
+      position:fixed;
+      top: 0;
+      left: -100%;
+      right: 0;
+      bottom: 0;
+      z-index: 3;
+      transition: 2.5s;
+   }
+   .curtainTwo{
+      background-color: #121212;
+      width: 50%;
+      position: fixed;
+      top: 0;
+      left: 430px;
+      right: 0;
+      bottom: 0;
+      z-index: 3;
+      transition: 2.5s;
+   }
+
+   .curtainOne.active{
+      left: 430px;
+   }
+
+   .curtainTwo.active{
+      left: -100%;
+   }
+   .contacts .contact-form{
+      display: flex;
+      justify-content: center;
+
+   }
+   .contacts .contact-form .form-button{
+      display: flex;
+      justify-content: center;
+   }
+   .contacts .contact-section .contact-form .form-content{ 
+      width: 500px;
+   }
+   .contact-form{
+      height: 82vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .about-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 82vh;
+   }
+   .contact-section{
+      width: 100%;
+      height: 100vh;
+   }
+   .for-desktop-interface{
+      display: none;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 1150px) {
+   .intro-content h1{
+      font-size: 40px;
+      text-transform: uppercase;
+      font-weight: bold;
+   }
+   .intro-content p{
+      font-size: 19px;
+   }
+   .intro-content .social-media a{
+      font-size: 38px;
+      text-decoration: none;
+      color: black;
+   }
+   .button-toggle button{
+      color: white;
+      background-color: #121212;
+      border-radius: 9px;
+      padding: 2px;
+      width: 120px;
+      border: 1px solid black;
+      font-size: 20px;
+   }
+   .curtainOne{
+      background-color: #121212;
+      width: 50%;
+      position:fixed;
+      top: 0;
+      left: -100%;
+      right: 0;
+      bottom: 0;
+      z-index: 3;
+      transition: 2.5s;
+   }
+   .curtainTwo{
+      background-color: #121212;
+      width: 50%;
+      position: fixed;
+      top: 0;
+      left: 1203px;
+      right: 0;
+      bottom: 0;
+      z-index: 3;
+      transition: 2.5s;
+   }
+   .contacts .contact-section .contact-form .form-content{ 
+      width: 500px;
+   }
+   .curtainOne.active{
+      left: 1203px;
+   }
+
+   .curtainTwo.active{
+      left: -100%;
+   }
+   .about-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 82vh;
+   }
+   .content-introduction p{
+      font-size: 16px;
+      text-align: justify;
+      font-family: 'Poppins', sans-serif;
+   }
+   .content-image img{
+      width: 350px;
+      height: auto;
+      border-radius: 60%;
+   }
+   .skills .content-skills .row i{
+      font-size: 130px;
+   }
+   .contact-form{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .for-desktop-interface{
+      display: none;
+   }
+}
+
+@media (min-width: 1200px) {
+   .intro-content h1{
+      font-size: 50px;
+      text-transform: uppercase;
+      font-weight: bold;
+   }
+   .intro-content p{
+      font-size: 20px;
+   }
+   .intro-content .social-media a{
+      font-size: 35px;
+      text-decoration: none;
+      color: black;
+   }
+   .intro-content .social-media{
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+   }
+   .button-toggle button{
+      color: white;
+      background-color: #121212;
+      border-radius: 9px;
+      padding: 2px;
+      width: 100px;
+      font-size: 20px;
+      border: 1px solid black;
+   }
+   .button-toggle button:hover{
+      background-color: white;
+      color: black;
+      transition: 0.5s;
+   }
+   .about-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: black;
+      padding: 50px;
+   }
+   .about-header h1{
+      font-size: 50px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: lighter;
+      width: 100px;
+      color: black;
+   }
+   .skills-header i{
+      font-size: 50px;
+   }
+   .content-introduction p{
+      font-size: 23px;
+      text-align: justify;
+      font-family: 'Poppins', sans-serif;
+   }
+
+   .skills-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: black;
+      padding: 50px;
+   }
+
+   .content-image img{
+      width: 450px;
+      height: auto;
+      border-radius: 60%;
+   }
+   .personal h4{
+      font-size: 25px;
+      font-family: 'Poppins', sans-serif;
+   }
+   .info{
+      font-weight: bold;
+      font-size: 25px;
+   }
+   .about-header i{
+      font-size: 50px;
+   }
+
+   /*Skills */
+   .skills .content-skills .row i{
+      font-size: 150px;
+   }
+   .skills .content-skills .row h1{
+      font-size: 25px;
+   }
+   .skills-header h1{
+      font-size: 50px;
+      font-family: 'Poppins', sans-serif;
+      width: 100px;
+      border-radius: 5px;
+      color: black;
+      text-align: center;
+   }
+
+   /*Projects*/
+   .project-header h1{
+      font-size: 50px;
+      font-family: 'Poppins', sans-serif;
+      width: 120px;
+      border-radius: 5px;
+      color: white;
+      text-align: center;
+   }
+   .project-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: black;
+      padding: 50px;
+   }
+   .project-header i{
+      font-size: 50px;
+      color: white;
+   }
+   /*Contacts*/
+   .contact-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: black;
+      padding: 50px;
+   }
+   .contact-header h1{
+      font-size: 50px;
+      font-family: 'Poppins', sans-serif;
+   }
+   .contact-header i{
+      font-size: 50px;
+   }
+   .curtainOne{
+      background-color: #121212;
+      width: 50%;
+      position:fixed;
+      top: 0;
+      left: -100%;
+      right: 0;
+      bottom: 0;
+      z-index: 3;
+      transition: 2.5s;
+   }
+   .curtainOne.active{
+      left: 100%;
+   }
+   .curtainTwo.active{
+      left: -100%;
+   }
+   .curtainTwo{
+      background-color: #121212;
+      width: 50%;
+      position: fixed;
+      top: 0;
+      left: 100%;
+      right: 0;
+      bottom: 0;
+      z-index: 3;
+      transition: 2.5s;
+   }
+}

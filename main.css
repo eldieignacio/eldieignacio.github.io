@@ -454,7 +454,7 @@
       border-radius: 9px;
       padding: 2px;
       width: 100px;
-      font-size: 20px;
+      font-size: 17px;
       border: 1px solid black;
    }
    .button-toggle button:hover{
@@ -494,7 +494,7 @@
    }
 
    .content-image img{
-      width: 450px;
+      width: 334px;
       height: auto;
       border-radius: 60%;
    }
@@ -512,7 +512,7 @@
 
    /*Skills */
    .skills .content-skills .row i{
-      font-size: 150px;
+      font-size: 180px;
    }
    .skills .content-skills .row h1{
       font-size: 25px;
@@ -525,7 +525,22 @@
       color: black;
       text-align: center;
    }
-
+   .skills-header i{
+      font-size: 50px;
+   }
+   .skills .content-skills .row{
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .content-skills{
+      display: flex;
+      justify-self: center;
+      align-items: center;
+      height: 60vh;
+      padding: 50px;
+   }
    /*Projects*/
    .project-header h1{
       font-size: 50px;
@@ -588,5 +603,11 @@
       bottom: 0;
       z-index: 3;
       transition: 2.5s;
+   }
+   .about-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 82vh;
    }
 }
